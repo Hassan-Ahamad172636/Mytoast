@@ -11,7 +11,7 @@ function App({ position, setPosition }) {
       showToast(message);
       setMessage("");
     } else {
-      showToast("⚠️ Please enter a message first!");
+      showToast("Please enter a message first!");
     }
   };
 
